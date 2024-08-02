@@ -29,7 +29,15 @@
       ],
       "css": [
         "./src/reader.css"
-      ]
+      ], 
+      "js": [
+        "./src/managers/cleanupManager.js",
+        "./src/managers/controlsManager.js",
+        "./src/managers/rainManager.js",
+        "./src/managers/tagsManager.js",
+        "./src/managers/lightboxManager.js"
+      ],
+      "type": "module"
     }
   ]
 }
