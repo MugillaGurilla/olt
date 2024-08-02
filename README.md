@@ -3,4 +3,4 @@ If you're like me and read a lot of articles but want to read them without the n
 
 ![Olt - action shot](src/img/readme/action-shot-1.png)
 
-Extension Lore: the name *Olt*, comes from the Irish 'alt' (pronounced like 'olt') which means article. 
+Extension Lore: the name *Olt*, comes from the Irish 'alt' (pronounced like 'olt' to the anglophone) which means article. 
