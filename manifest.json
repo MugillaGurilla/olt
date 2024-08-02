@@ -1,0 +1,35 @@
+{
+  "name": "Olt",
+  "description": "A extension for readings articles withoput the noise -  words, images and absolutely neothing else",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting" 
+  ],
+  "action": {
+    "default_icon": {
+      "16": "./src/img/olt.png",
+      "48": "./src/img/olt.png",
+      "128": "./src/img/olt.png"
+    }
+  },
+  "icons": {
+    "16": "./src/img/olt.png",
+    "48": "./src/img/olt.png",
+    "128": "./src/img/olt.png"
+  },
+  "background": {
+    "service_worker": "./src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "./src/reader.css"
+      ]
+    }
+  ]
+}
