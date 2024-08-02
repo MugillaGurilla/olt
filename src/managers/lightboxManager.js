@@ -43,5 +43,11 @@ class LightboxManager {
         lightbox.style.display = 'none';
       }
     });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        lightbox.style.display = 'none';
+      }
+    })
   }
 }
