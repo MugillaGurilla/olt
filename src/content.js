@@ -27,7 +27,7 @@ function printUsefulTags() {
     articleElement.className = '';
     articleElement.classList.add(tagToClassMappings[articleElement.tagName])
     document.body.append(articleElement);
-    document.body.classList.add('font-size-level-4')
+    document.body.classList.add('font-size-level-2')
   });
 }
 
@@ -208,8 +208,8 @@ function cleanBody() {
   document.body.innerHTML = '';
   document.body.className = '';
   document.body.style = '';
-  document.body.style.marginLeft = '250px';
-  document.body.style.marginRight = '250px';
+  document.body.style.marginLeft = '200px';
+  document.body.style.marginRight = '200px';
   document.body.classList.add('reader-mode');
 }
 
