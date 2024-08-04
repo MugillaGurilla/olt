@@ -1,18 +1,20 @@
+class Executor {
+  TagsManager = new TagsManager();
+  CleanupManager = new CleanupManager();
+  RainManager = new RainManager();
+  ControlsManager = new ControlsManager();
+  LightboxManager = new LightboxManager();
 
-const tagsManager = new TagsManager();
-tagsManager.extract();
-tagsManager.defineClassNames();
+  run() {
+    this.TagsManager.extract();
+    this.TagsManager.defineClassNames();
+    this.CleanupManager.cleanup();
+    this.TagsManager.print();
+    this.RainManager.startRain();
+    this.ControlsManager.addTextControls();
+    this.LightboxManager.addInLightbox();
+  }
+}
 
-const cleanupManager = new CleanupManager();
-cleanupManager.cleanup();
-
-tagsManager.print();
-
-const rainManager = new RainManager();
-rainManager.startRain();
-
-const controlsManager = new ControlsManager();
-controlsManager.addTextControls();
-
-const lightboxManager = new LightboxManager();
-lightboxManager.addInLightbox();
+const executor = new Executor();
+executor.run();
