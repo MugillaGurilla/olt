@@ -2,14 +2,14 @@
 If you're like me and read a lot of articles but want to read them without the noise, then this is the extension for you. Just the words and the images, nothing else, exactly as you want them.
 
 Say NO! to...
-* Stupid ads
-* Terrible fonts
-* Weird pops ups
-* Errant nav menus
+* Stupid ads ❌
+* Terrible fonts ❌
+* Weird pops ups ❌
+* Errant nav menus ❌
 
 Say YES to:
-* Words
-* Images
+* Words ✅
+* Images ✅
 
 *Go from this:*
 
