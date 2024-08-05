@@ -1,15 +1,12 @@
 # Olt
 If you're like me and read a lot of articles but want to read them without the noise, then this is the extension for you. Just the words and the images, nothing else, exactly as you want them.
 
-Go from this: 
-
-![Dirty, noisy article](src/img/readme/noisy.png)
+*Go from this:*
 <img src="src/img/readme/noisy.png" alt="drawing" width="400"/>
 
 
-To this:
+*To this:*
 
-![Olt - action shot](src/img/readme/action-shot-1.png)
 <img src="src/img/readme/action-shot-1.png" alt="drawing" width="400"/>
 
 
