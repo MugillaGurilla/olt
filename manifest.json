@@ -31,11 +31,11 @@
         "./src/reader.css"
       ], 
       "js": [
-        "./src/managers/cleanupManager.js",
-        "./src/managers/controlsManager.js",
-        "./src/managers/rainManager.js",
-        "./src/managers/tagsManager.js",
-        "./src/managers/lightboxManager.js"
+        "./src/managers/cleanup.js",
+        "./src/managers/controls.js",
+        "./src/managers/rain.js",
+        "./src/managers/tags.js",
+        "./src/managers/lightbox.js"
       ],
       "type": "module"
     }
