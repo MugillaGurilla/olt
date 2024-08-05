@@ -15,6 +15,7 @@ class ControlsManager {
     const controlsDiv = document.createElement('div');
     controlsDiv.classList.add('controls');
 
+    
     const controlSymbolsAndListeners = {
       'https://i.ibb.co/2WW751B/zoom-in.png': this.increaseFontSize,
       'https://i.ibb.co/7r4mLZb/zoom-out.png': this.decreaseFontSize,
