@@ -2,6 +2,7 @@
 If you're like me and read a lot of articles but want to read them without the noise, then this is the extension for you. Just the words and the images, nothing else, exactly as you want them.
 
 *Go from this:*
+
 <img src="src/img/readme/noisy.png" alt="drawing" width="400"/>
 
 
