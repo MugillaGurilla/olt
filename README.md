@@ -7,7 +7,7 @@ Say NO! to...
 * Weird pops ups ❌
 * Errant nav menus ❌
 
-Say YES to:
+Say YES! to:
 * Words ✅
 * Images ✅
 
